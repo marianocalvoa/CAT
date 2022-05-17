@@ -88,7 +88,7 @@ div .botvis.flowchart {
   font-weight: bolder;
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   /*font: 15px sans-serif;*/
-  fill: white;
+  fill: blue;
   letter-spacing: 1px;
 }
 
@@ -196,14 +196,14 @@ div .botvis.flowchart {
 }
 
 .botvis-ba-label {
-  color: white;
+  color: blue;
 }
 
 .output_subarea.fullscreen {
   z-index: 9999 !important;
   width: 100% !important;
   height: 100% !important;
-  background-color: white !important;
+  background-color: blue !important;
   opacity: 1 !important;
   position: fixed !important;
   top: 50px !important;
