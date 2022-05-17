@@ -91,7 +91,7 @@ else:
     display(Javascript(data=wa_node_details_js))
     display(Javascript(data=wa_dialog_chart_js))
 
-def drawy_flowchart(config, json_data, python_selection_var="selection", width=600, height=400):
+def draw_flowchart(config, json_data, python_selection_var="selection", width=600, height=400):
     display(Javascript("""
         (function(element){
             require(['flowchart2'], function(flowchart2) {
