@@ -23,8 +23,8 @@ div .botvis.flowchart {
 }
 
 .botvis.flowchart rect.node.handled{
-  fill: #00B4A0;
-  stroke:#00B4A0;
+  fill: #c38dd9;
+  stroke:#c38dd9;
 }
 
 .botvis.flowchart rect.node.not-handled{
