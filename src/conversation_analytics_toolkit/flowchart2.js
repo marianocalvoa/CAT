@@ -244,10 +244,10 @@ define('flowchart2', ['d3', 'svg_export'], function (d3, svgExport) {
             .attr('class', 'node-left-twisty')
             .attr('transform', 'translate(-30, 0)')
             .style("fill", function(d) {
-                return d.data.notHandledRatio >= _config["notHandledRatioThreshold"] ? "#fb9a99" : "#00B4A0";
+                return d.data.notHandledRatio >= _config["notHandledRatioThreshold"] ? "#fb9a99" : "#c38dd9";
             })
             .style("stroke", function(d) {
-                return d.data.notHandledRatio >= _config["notHandledRatioThreshold"] ? "#fb9a99" : "#00B4A0";
+                return d.data.notHandledRatio >= _config["notHandledRatioThreshold"] ? "#fb9a99" : "#c38dd9";
             });
 
         var nodeObjects = nodeEnter.append('rect')
@@ -497,7 +497,7 @@ define('flowchart2', ['d3', 'svg_export'], function (d3, svgExport) {
         // Update the node attributes and style
         nodeUpdate.select('rect.node')
           .style("fill", function(d) {
-            return d.data.notHandledRatio >= _config["notHandledRatioThreshold"] ? "#fb9a99" : "#00B4A0";
+            return d.data.notHandledRatio >= _config["notHandledRatioThreshold"] ? "#fb9a99" : "#c38dd9";
           })
           .attr("x", -30)
           .attr("y", -15)
