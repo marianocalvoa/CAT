@@ -127,7 +127,7 @@ div .botvis.flowchart {
 }
 
 .botvis.flowchart .node-exit-path	{
-  fill: white;
+  fill: blue;
 }
 
 .botvis.flowchart .node-exit-label {
